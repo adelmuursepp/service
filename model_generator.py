@@ -31,20 +31,6 @@ X_train, X_test, y_train, y_test =\
     train_test_split(features.loc[:,'A':"Z"], target_var, test_size = 0.5, random_state=1111)
 
 
-
-# # Split the dataset into features and labels
-# X = features
-# y = target_var
-
-# # Split the dataset into training (80%) and testing (20%) data
-# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0, shuffle = True)
-
-# Build the classifier and make prediction
-# classifier = DecisionTreeClassifier()
-# classifier.fit(X_train, y_train)
-# print('fit trainging data')
-# prediction = classifier.predict(X_test)
-
 print('=' * 80)
 print("Decision Tree")
 dt_param_grid = {
