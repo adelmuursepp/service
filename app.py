@@ -107,5 +107,7 @@ class MainClass(Resource):
         "error": str(error)
         })
 
-      MainClass.post("ghj")
+
+if __name__ == '__main__':
+    app.run()
 
